@@ -1,15 +1,15 @@
 float qualityPoints()
 {
-int avg;
+int Avg;
 printf("Enter average marks : ");
-scanf("%d",&avg);
-if(avg>=90 && avg<=100)
+scanf("%d",&Avg);
+if(Avg>=90 && Avg<=100)
 return 4;
-else if(avg>=80)
+else if(Avg>=80)
 return 3;
-else if (avg>=70)
+else if (Avg>=70)
 return 2;
-else if (avg>=60)
+else if (Avg>=60)
 return 1;
 else
 return 0;
